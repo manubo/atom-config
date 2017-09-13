@@ -1,0 +1,122 @@
+"*":
+  "atom-beautify":
+    elm:
+      disabled: true
+    erb:
+      beautify_on_save: true
+    general:
+      _analyticsUserId: "ee63f09e-ee09-4aa5-bb48-3ef71e4c003f"
+    html:
+      beautify_on_save: true
+    js:
+      disabled: true
+  "atom-ctags":
+    cmdArgs: "--exclude=vendor --exclude=tmp --exclude=test --exclude=spec --exclude=node_modules"
+  "atom-htmltidy": {}
+  "atom-material-ui":
+    altCmdPalette: true
+    colors:
+      abaseColor: "#607d8b"
+      accentColor: "#b27252"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Blue Grey"
+    depth: true
+    panelContrast: true
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+    vendors: [
+      "node_modules"
+      "web/app"
+    ]
+  "autocomplete-plus":
+    strictMatching: true
+  core:
+    automaticallyUpdate: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "symbols-view"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "tone-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    invisibles: {}
+    lineHeight: 1.75
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  emmet:
+    useEmmetComments: true
+  "exception-reporting":
+    userId: "002d94a5-fcf2-04e0-9dd7-9db986ea1ff0"
+  "git-blame": {}
+  "git-diff-details": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "11f88d10-0fd7-4ede-8d61-18eb615982a5"
+  linter: {}
+  "linter-elixirc":
+    elixircPath: "/usr/local/bin/elixirc"
+    mixPath: "/usr/local/bin/mix"
+  "linter-eslint": {}
+  "linter-ui-default":
+    showPanel: true
+  minimap: {}
+  "one-light-ui":
+    fontSize: "Droid Sans Mono"
+    layoutMode: "Spacious"
+  "one-light-ui-adwaita":
+    layoutMode: "Compact"
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      fontFamily: "Menlo"
+      fontSize: "12"
+  "prettier-atom":
+    prettierOptions:
+      trailingComma: "es5"
+    useEslint: true
+  react: {}
+  "ruby-test":
+    minitestSingleCommand: "bin/rails test {relative_path}:{line_number}"
+    specFramework: "minitest"
+    testFramework: "minitest"
+  "test-jumper":
+    locations: [
+      "app|test"
+    ]
+    "spec-announcer": "%s_test"
+    "x-create-files":
+      enabled: true
+  "tone-syntax":
+    color:
+      bg: "#1d262f"
+      duo: "#88b4e7"
+      syncUI: false
+      tri: "#34febb"
+      uno: "#d6e9ff"
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: false
+  "webbox-color": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".elm.source":
+  editor:
+    tabLength: 4
